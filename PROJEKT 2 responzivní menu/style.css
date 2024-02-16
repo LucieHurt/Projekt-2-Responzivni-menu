@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: copperplate, georgia, serif;    
+}
+
+header {
+    display: flex; 
+    align-items: center;
+    background-color: rgb(24, 14, 4);
+    height: 170px;  
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.logo img {
+    width: 160px;
+    height: 150px; 
+    margin-left: 30px; 
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none; 
+    margin-right: 35px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #f0e3d3;
+    font-size: 22px; 
+}
+
+.menu-icon {
+    display: none;
+    margin-right: 30px;
+     
+}
+
+/* Welcome section */
+
+.welcome {
+    background-image: url("img/bakery-background.jpg");
+    height: calc(100vh - 70px); 
+    background-size: cover;
+    background-position: center;
+}
